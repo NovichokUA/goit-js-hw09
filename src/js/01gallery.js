@@ -101,7 +101,7 @@ for (const img of image) {
   img.style.display = 'block';
 }
 
-const gallery = new SimpleLightbox('.gallery a', {
+export const gallery = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
   overlayOpacity: 0.5,
