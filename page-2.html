@@ -5,22 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <title>Page 2</title>
-    <script type="module" crossorigin src="/goit-js-hw09/commonHelpers2.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw09/assets/styles-dfd7cb99.js">
-    <link rel="modulepreload" crossorigin href="/goit-js-hw09/assets/vendor-c9def49e.js">
-    <link rel="stylesheet" href="/goit-js-hw09/assets/styles-d117d45e.css">
-    <link rel="stylesheet" href="/goit-js-hw09/assets/vendor-8c8fa3ea.css">
+    <title>Feedback-form</title>
+    <link rel="stylesheet" href="/goit-js-hw09/assets/styles-26cafc17.css">
   </head>
   <body>
     <section>
       <a href="./index.html">Go to home</a>
-      <h1>Welcome to page Form</h1>
-      <section>
-  <ul class="gallery"></ul>
-</section>
-
+      <h1>Welcome to page Feedback-form</h1>
     </section>
-    
+    <form class="feedback-form" autocomplete="off">
+  <label class="feedback-label">
+    Email
+    <input class="feedback-input-email" type="email" name="email" autofocus />
+  </label>
+  <label class="feedback-label text">
+    Message
+    <textarea name="message" rows="8"></textarea>
+  </label>
+  <button class="btn-submit" type="submit">Submit</button>
+</form>
+
+    <script src="./js/02-feedbackForm.js"></script>
   </body>
 </html>
